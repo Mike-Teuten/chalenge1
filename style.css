@@ -15,14 +15,14 @@
   padding: 0;
 }
 
-/* Style the body */
+
 body {
+  /* Style the body */
   background-color: var(--body-bg-color);
 }
 
-/* Style of the top navigation bar */
-
 .navbar {
+  /* Style of the top navigation bar */
   width: 100%;
   display: flex;
   background-color: var(--header-bg-color);
@@ -33,17 +33,21 @@ body {
 }
 
 .logo {
+  /* Company name*/
   color: var(--text-color);
   font-size: 48px;
   padding-top: 20px;
 }
 
 .seo {
-  color: var(--body-bg-color);
+  /*Styling for the inset letters on the company name*/
+  /*takes same color as hover*/
+  color: var(--nav-hover-bgcolor);
 }
 
-/* Style the navigation bar links */
+
 .navbar a {
+  /* Style the navigation bar links */
   color: var(--text-color);
   padding: 14px 20px;
   text-decoration: none;
@@ -59,8 +63,9 @@ p {
   color: var(--text-color);
 }
 
-/* Column container */
+
 .row {
+  /* Column container */
   float: left;
   display: flex;
   flex-wrap: wrap;
@@ -69,12 +74,14 @@ p {
 /* Create two unequal columns that sits next to each other */
 
 .main {
+  /* Code to control behavoir of the article panels*/
   background-color: var(--body-bg-color);
   padding: 20px;
   float: left;
 }
 
 .figure {
+  /*Background splash image */
   display: flex;
   background-color: var(--article-bg-color);
   height: 60rem;
@@ -86,7 +93,7 @@ p {
 /* Main column */
 
 .article-body {
-  
+  /*Styling for the body of the articles*/
   margin-bottom: 20px;
   padding: 20px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri,
@@ -96,8 +103,9 @@ p {
   float: left;
 }
 
-/* To control the placement of the images in the article section */
+
 .article-image {
+  /* To control the placement of the images in the article section */
   float: left;
   margin-right: 25px;
   margin-left: 20px;
@@ -105,11 +113,13 @@ p {
 }
 
 .top {
+  /*To allow cusor to return to top of page*/
   color: var(--text-color);
   line-height: 4rem;
 }
 
 .benefits {
+  /*Styling for the asside panel*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -121,16 +131,19 @@ p {
 }
 
 .benefit {
+  /*Styling for the cards in the side panel*/
   margin-bottom: 32px;
   color: var(--text-color);
 }
 .benefit img {
+    /*Styling for the cards in the side panel*/
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
 .benefit h3 {
+    /*Styling for the cards in the side panel*/
   margin-bottom: 10px;
   text-align: center;
 }
