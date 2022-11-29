@@ -104,6 +104,10 @@ p {
   width: 200px;
 }
 
+.top {
+  color: var(--text-color);
+  line-height: 4rem;
+}
 
 .benefits {
     margin-right: 20px;
